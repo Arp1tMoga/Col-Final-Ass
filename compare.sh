@@ -7,7 +7,7 @@ RUNS=10
 
 PYTHON_BASELINE="python3 baseline/gemm_baseline.py"
 # CPP_OLD="optimized/gemm_mine"
-CPP="optimized/gemm_ultra"
+CPP="optimized/gemm_mine"
 
 extract_time() {
     echo "$1" | sed -n 's/.*time=\([0-9\.eE+-]*\).*/\1/p'
